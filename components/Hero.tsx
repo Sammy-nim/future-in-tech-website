@@ -16,9 +16,10 @@ const Hero: React.FC = () => {
             (주)퓨처인테크에 오신것을 환영합니다.
           </p>
           <h1 className="text-4xl md:text-6xl font-extrabold text-[#01A982] leading-tight mb-8 drop-shadow-[0_0_15px_rgba(1,169,130,0.5)]">
+            We<br />
             Find & Provide<br />
             Solutions for<br />
-            Business Growth
+            Customer's Business Growth
           </h1>
           <p className="text-lg text-[#80cbc4] leading-relaxed">
             (주)퓨처인테크는 고객의 성공적인 비즈니스를 위해<br className="hidden md:inline" />
