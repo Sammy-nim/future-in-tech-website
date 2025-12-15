@@ -11,7 +11,7 @@ const Directions: React.FC = () => {
         </div>
 
         <div className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-gray-200 bg-gray-50 group">
-           {/* Using Google Maps Embed fallback for the location */}
+           {/* Using Google Maps Embed fallback for the location visual */}
            <iframe 
              src="https://maps.google.com/maps?q=37.5348877,126.8966477&z=15&output=embed"
              className="w-full h-full border-0"
@@ -23,13 +23,13 @@ const Directions: React.FC = () => {
            {/* Overlay Button */}
            <div className="absolute bottom-6 right-6 z-10">
               <a 
-                href="https://maps.app.goo.gl/iXx7EcUhFBdtRVSr9" 
+                href="https://naver.me/5gYGnTe9" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-white/90 backdrop-blur text-[#00838f] px-6 py-3 rounded-full font-bold shadow-lg hover:bg-[#00838f] hover:text-white transition-all border border-[#00838f]/20"
               >
                 <MapPin size={18} />
-                <span>구글 지도에서 보기</span>
+                <span>네이버 지도에서 보기</span>
                 <ExternalLink size={14} />
               </a>
            </div>

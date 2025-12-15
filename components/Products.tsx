@@ -24,7 +24,7 @@ const Products: React.FC = () => {
     {
       title: '컴퓨팅',
       url: 'https://www.hpe.com/kr/ko/compute.html',
-      image: 'https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=600&q=80',
       desc: 'HPE ProLiant 서버는 워크로드에 최적화된 성능과 보안을 제공하는 업계 최고의 서버 포트폴리오입니다. 자동화된 관리 기능과 강력한 보안 기술을 통해 IT 인프라 운영의 효율성을 극대화하세요.',
     },
     {
@@ -56,7 +56,7 @@ const Products: React.FC = () => {
   return (
     <section id="product" className="py-24 px-6 md:px-12 w-full max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-[#006064] mb-4">HPE Business Solutions</h2>
+        <h2 className="text-4xl font-bold text-[#006064] mb-4">Business Solutions</h2>
         <p className="text-gray-500 text-lg">HPE의 혁신적인 기술과 솔루션을 만나보세요.</p>
       </div>
 
@@ -77,15 +77,19 @@ const Products: React.FC = () => {
               </div>
 
               {/* Title Column */}
-              <div className="w-full md:w-1/5 flex-shrink-0 text-left">
+              <div className="w-full md:w-1/5 flex-shrink-0 text-left flex items-center gap-3">
+                <h3 className="text-xl font-bold text-gray-800">
+                  {item.title}
+                </h3>
                 <a 
                   href={item.url} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-xl font-bold text-gray-800 hover:text-[#00838f] transition-colors"
+                  className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-500 hover:bg-[#00838f] hover:text-white transition-all duration-200 shadow-sm"
+                  title="자세히 보기"
+                  aria-label={`${item.title} 자세히 보기`}
                 >
-                  {item.title}
-                  <ExternalLink size={18} className="text-[#00838f] opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <ExternalLink size={16} />
                 </a>
               </div>
 

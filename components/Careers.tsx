@@ -7,7 +7,7 @@ const Careers: React.FC = () => {
       <section id="careers" className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-[#006064] mb-4">Recruiting</h2>
-          <p className="text-gray-500 text-lg">퓨처인테크와 함께 미래를 만들어갈 인재를 모십니다.</p>
+          <p className="text-gray-500 text-lg">(주)퓨처인테크와 함께 미래를 만들어갈 인재를 모십니다.</p>
         </div>
 
         {/* Job Grid - Adjusted to 2 columns and centered */}
