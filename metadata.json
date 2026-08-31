@@ -1,5 +1,8 @@
 {
   "name": "Future in Tech",
   "description": "Corporate website for Future in Tech, an IT business partner providing infrastructure, audit, and consulting solutions.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

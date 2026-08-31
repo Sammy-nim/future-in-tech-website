@@ -31,7 +31,7 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 md:px-12 bg-white/95 backdrop-blur-md shadow-sm transition-all">
       <div className="flex items-center gap-2 text-2xl font-extrabold text-[#01A982]">
         <Cloud className="w-8 h-8 text-[#01A982]" fill="currentColor" fillOpacity={0.2} />
-        <span>FUTURE IN TECH</span>
+        <span>FUTURE_IN_TECH</span>
       </div>
 
       {/* Desktop Nav */}
@@ -81,13 +81,27 @@ const Header: React.FC = () => {
             </div>
           </li>
 
+          {/* Customer Tab */}
+          <li>
+            <a href="#customer" className="text-sm font-bold text-gray-600 uppercase transition-colors hover:text-[#01A982]">
+              Customer
+            </a>
+          </li>
+
+          {/* Partners Tab */}
+          <li>
+            <a href="#partners" className="text-sm font-bold text-gray-600 uppercase transition-colors hover:text-[#01A982]">
+              Partners
+            </a>
+          </li>
+
           <li>
             <a href="#careers" className="text-sm font-bold text-gray-600 uppercase transition-colors hover:text-[#01A982]">
               Careers
             </a>
           </li>
           <li>
-            <a href="mailto:FiT@futureintech.co.kr" className="text-sm font-bold text-gray-600 uppercase transition-colors hover:text-[#01A982]">
+            <a href="mailto:j3kwon@futureintech.co.kr" className="text-sm font-bold text-gray-600 uppercase transition-colors hover:text-[#01A982]">
               Contact
             </a>
           </li>
@@ -167,13 +181,27 @@ const Header: React.FC = () => {
               )}
             </li>
 
+            {/* Customer */}
+            <li className="border-b border-gray-100">
+              <a href="#customer" onClick={closeMenu} className="block py-4 text-center text-sm font-bold text-gray-600 uppercase hover:text-[#01A982]">
+                Customer
+              </a>
+            </li>
+
+            {/* Partners */}
+            <li className="border-b border-gray-100">
+              <a href="#partners" onClick={closeMenu} className="block py-4 text-center text-sm font-bold text-gray-600 uppercase hover:text-[#01A982]">
+                Partners
+              </a>
+            </li>
+
             <li className="border-b border-gray-100">
               <a href="#careers" onClick={closeMenu} className="block py-4 text-center text-sm font-bold text-gray-600 uppercase hover:text-[#01A982]">
                 Careers
               </a>
             </li>
             <li>
-              <a href="mailto:FiT@futureintech.co.kr" onClick={closeMenu} className="block py-4 text-center text-sm font-bold text-gray-600 uppercase hover:text-[#01A982]">
+              <a href="mailto:j3kwon@futureintech.co.kr" onClick={closeMenu} className="block py-4 text-center text-sm font-bold text-gray-600 uppercase hover:text-[#01A982]">
                 Contact
               </a>
             </li>

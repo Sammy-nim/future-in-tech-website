@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import BusinessDirection from './components/BusinessDirection';
 import Products from './components/Products';
+import Customer from './components/Customer';
+import Partners from './components/Partners';
 import Organization from './components/Organization';
 import Directions from './components/Directions';
 import Careers from './components/Careers';
@@ -18,6 +20,8 @@ const App: React.FC = () => {
         <Organization />
         <Directions />
         <Products />
+        <Customer />
+        <Partners />
         <Careers />
       </main>
       <Footer />
